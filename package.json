@@ -1,0 +1,26 @@
+{
+	"name": "drag-drop-typescript",
+	"version": "1.0.0",
+	"description": "drag-drop-typescript",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server",
+		"build": "webpack --config webpack.config.prod.js"
+	},
+	"keywords": [
+		"typescript"
+	],
+	"author": "Caeser Ibrahim",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^24.10.1",
+		"clean-webpack-plugin": "^3.0.0",
+		"lite-server": "^2.5.4",
+		"ts-loader": "^8.4.0",
+		"typescript": "^4.9.5",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}
